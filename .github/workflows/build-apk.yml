@@ -1,5 +1,7 @@
 name: Build AndroidIDE APK
 on:
+push:
+    branches: [ "apk-v3-signing" ]
   workflow_dispatch:
 jobs:
   build:
